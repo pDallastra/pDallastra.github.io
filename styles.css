@@ -15,7 +15,7 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 65vw;
-    height: 30vh;
+    height: auto;
     margin: 8rem auto;
     background-color: #ffffff;
     border-radius: 10px;
@@ -33,29 +33,36 @@ header {
 }
 
 
-h1 {
+header h1 {
     color: white;
+    font-size: 28px;
 }
 
 .linklist {
     width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .linklist h2 {
     margin-left: 2%;
+    font-size: 20px;
 }
 
 .linklist ul li {
-    margin-left: 10%;
-    margin-top: 2%;
+    margin: 2% 0;
+    font-size: 12px;
 }
 
 .linklist img {
-    float: right;
-    width: 15%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    width: 30%;
     border-radius: 10px;
-    margin-right: 2%;
-    margin-top: -5%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
@@ -70,6 +77,7 @@ footer {
     height: 20%;
     border-radius: 10px;
     color: white;
+    font-size: 12px;
 }
 
 footer a {
