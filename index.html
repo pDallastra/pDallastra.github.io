@@ -9,26 +9,27 @@
     <link rel="stylesheet" href="medium.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="index.js" type="text/javascript"></script>
     <title>Paulo Dallastra</title>
 </head>
 
-<body>
+<body onload="setTimes()">
     <main>
         <header>
             <h1>Paulo Dallastra</h1>
         </header>
         <section class="linklist">
-            <img src="./paulo-dallastra.png" alt="Paulo Dallastra">
+            <img src="./paulo-dallastra.jpg" alt="Paulo Dallastra Profile Picture">
             <h2>WDD 230: Assignment Portal</h2>
             <hr>
             <ul>
-                <li>Lesson 02: <a href="/pDallastra.github.io/lesson2/design-principles.html">Assignment Link</a></li>
+                <li>Lesson 02: <a href="./lesson2/design-principles.html">Assignment Link</a></li>
                 <li>Lesson 03: <a href="#">Assignment Link</a> </li>
             </ul>
         </section>
         <footer>
-            <p>&copy; 2020 | Paulo Dallastra | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-            <p>Last Updated: 09/14/2020 4pm</p>
+            <p>&copy; <span id="copyYear"></span> | Paulo Dallastra | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="lastModified"></span></p>
         </footer>
     </main>
 </body>
