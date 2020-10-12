@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Paulo's Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla&family=Poppins:wght@500&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="setTimes()">
+    <main>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="target-audience.html">Target</a>
+                <a href="color-scheme.html">Color</a>
+                <a href="typography.html">Typo</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <header>
+            <div>
+                <img src="./img/paulo-weather-logo.jpg" alt="Paulo's Weather Logo">
+                <h1>Color Scheme</h1>
+            </div>
+        </header>
+        <hr>
+        <section>
+            <h2>Personas</h2>
+            <table>
+                <tr>
+                  <th>Element</th>
+                  <th>Assigned Color</th>
+                </tr>
+                <tr>
+                  <td>Body</td>
+                  <td id="tdBody">#9b9898</td>
+                </tr>
+                <tr>
+                  <td>Main Container</td>
+                  <td id="tdMain">#ffffff</td>
+                </tr>
+                <tr>
+                  <td>Navbar & Footer</td>
+                  <td id="tdNav">#1e80b5</td>
+                </tr>
+              </table>
+        </section>
+        <footer>
+            <p>&copy; <span id="copyYear"></span> | Paulo Dallastra | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="lastModified"></span></p>
+        </footer>
+    </main>
+</body>
+</html>

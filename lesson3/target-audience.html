@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Paulo's Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla&family=Poppins:wght@500&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="setTimes()">
+    <main>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="target-audience.html">Target</a>
+                <a href="color-scheme.html">Color</a>
+                <a href="typography.html">Typo</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <header>
+            <div>
+                <img src="./img/paulo-weather-logo.jpg" alt="Paulo's Weather Logo">
+                <h1>Target Audience</h1>
+            </div>
+        </header>
+        <hr>
+        <section>
+            <h2>Target</h2>
+            <p>The target audience for Paulo's Weather Website is for both people who love and hate Paulo Dallastra.</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Personas</h2>
+            <table>
+                <tr>
+                  <th>Persona</th>
+                  <th>Image</th>
+                  <th>Expectation</th>
+                </tr>
+                <tr>
+                  <td>Lovers</td>
+                  <td><img src="./img/lovers.jpeg" alt=""></td>
+                  <td>Checking how the day will be for Paulo, so they can be glad he is having a good day or give him support.</td>
+                </tr>
+                <tr>
+                  <td>Haters</td>
+                  <td><img src="./img/haters.jpg" alt=""></td>
+                  <td>Checking how the day will be for Paulo, so they can celebrate if he is having a bad day or feel bad because he is having a great day.</td>
+                </tr>
+              </table>
+        </section>
+        <hr>
+        <section>
+            <h2>Scenarios</h2>
+            <ol>
+                <li>What is the weather going to be in Brazil since Paulo is there?</li>
+                <li>How's the weather will look like when Paulo is having surgery?</li>
+                <li>How's the weather when Paulo is getting back to the US?</li>
+                <li>Will today's weather be good for Paulo today?</li>
+                <li>Will today's weather make Paulo suffer today?</li>
+            </ol>
+        </section>
+        <footer>
+            <p>&copy; <span id="copyYear"></span> | Paulo Dallastra | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="lastModified"></span></p>
+        </footer>
+    </main>
+</body>
+</html>

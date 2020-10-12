@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Paulo's Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla&family=Poppins:wght@500&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="setTimes()">
+    <main>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="target-audience.html">Target</a>
+                <a href="color-scheme.html">Color</a>
+                <a href="typography.html">Typo</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <header>
+            <div>
+                <img src="./img/paulo-weather-logo.jpg" alt="Paulo's Weather Logo">
+                <h1>Typography</h1>
+            </div>
+        </header>
+        <hr>
+        <section>
+            <table>
+                <tr>
+                  <th>Element</th>
+                  <th>Font</th>
+                  <th>Size</th>
+                  <th>Sample</th>
+                </tr>
+                <tr>
+                  <td>H1</td>
+                  <td>Sansita Swashed</td>
+                  <td>3rem</td>
+                  <td id="tdH1">Sample</td>
+                </tr>
+                <tr>
+                  <td>H2</td>
+                  <td>Poppins</td>
+                  <td>2rem</td>
+                  <td id="tdH2">Sample</td>
+                </tr>
+                <tr>
+                  <td>Paragraph</td>
+                  <td>Piazzolla</td>
+                  <td>18px</td>
+                  <td id="tdP">Sample</td>
+                </tr>
+                <tr>
+                  <td>Links</td>
+                  <td>Poppins</td>
+                  <td>17px</td>
+                  <td id="tdA">Sample</td>
+                </tr>
+              </table>
+        </section>
+        <footer>
+            <p>&copy; <span id="copyYear"></span> | Paulo Dallastra | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="lastModified"></span></p>
+        </footer>
+    </main>
+</body>
+</html>
