@@ -37,4 +37,9 @@
       display: block;
       text-align: left;
     }
+
+    #adds h3 {
+      margin-left: 10%;
+    }
+    
   }

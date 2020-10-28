@@ -97,3 +97,15 @@ nav {
 .topnav .icon {
   display: none;
 }
+
+.active {
+  background-color: rgb(64, 199, 223);
+  color: white;
+}
+
+#adds {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
