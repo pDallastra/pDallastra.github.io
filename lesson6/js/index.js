@@ -35,3 +35,9 @@ function setTimes() {
       $(this).addClass('active').siblings().removeClass('active')
   })
 
+  WebFont.load({
+    google: {
+      families: ['Poppins', 'Sansita Swashed', 'Piazzolla']
+    }
+  })
+
