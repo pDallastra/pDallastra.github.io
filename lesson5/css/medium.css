@@ -35,4 +35,40 @@
     #adds h3 {
       margin-left: 10%;
     }
+
+    main #heroSection .summary {
+      width: 30%;
+      font-size: smaller;
+    }
+
+    main #articleSection {
+      flex-flow: column;
+    }
+
+    main #articleSection div {
+      width: 90%;
+      margin: auto;
+    }
+    
+    main #articleSection img {
+      width: 90%;
+      margin: auto;
+    }
+
+    main #contactSection {
+      flex-flow: column;
+    }
+    
+    main #contactSection img {
+      width: 90%;
+    }
+    
+    main #contactSection div {
+      width: 90%;
+      text-align: center;
+    }
+    
+    main #contactSection div img {
+      width: 20px;
+    }
   }

@@ -41,13 +41,5 @@
     #adds h3 {
       margin-left: 10%;
     }
-
-    main #forecastSection {
-      display: none;
-    }
-
-    main #heroSection .summary {
-      width: 40%;
-    }
     
   }
