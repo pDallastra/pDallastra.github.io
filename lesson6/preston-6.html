@@ -38,10 +38,88 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div><p>Hero W/ Weather Summary</p></div>
-        <div><p>5 Day Forecast</p></div>
-        <div><p>Article</p></div>
-        <div><p>Contact Information</p></div>
+        <section id="heroSection">
+            <picture>
+                <source media="(min-width:767px)" srcset="./images/heroImg.jpg">
+                <source media="(min-width:600px)" srcset="./images/heroImg-md.jpg">
+                <img src="./images/heroImg-sm.jpg" alt="weather image">
+            </picture>
+            <div class="summary">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Currently: <span id="current">Sunny</span></p>
+                <p>High: <span id="high">76 °F</span></p>
+                <p>Wind Chill: <span id="wChill">°F</span></p>
+                <p>Humidity: <span id="humi">69%</span></p>
+                <p>Wind Speed: <span id="wSpeed">5 mph</span></p>
+            </div>
+        </section>
+        <section id="forecastSection">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./images/sun.jpeg" width="100px" alt="">
+                        89 °F 
+                    </td>
+                    <td>
+                        <img src="./images/sun.jpeg" width="100px" alt="">
+                        87 °F
+                    </td>
+                    <td>
+                        <img src="./images/sun.jpeg" width="100px" alt="">
+                        78 °F
+                    </td>
+                    <td>
+                        <img src="./images/sun.jpeg" width="100px" alt="">
+                        75 °F
+                    </td>
+                    <td>
+                        <img src="./images/sun.jpeg" width="100px" alt="">
+                        72 °F
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="articleSection">
+            <div>
+                <h2>Founders Day Fresco</h2>
+                <h3>by Janica Juarez</h3>
+                <p>
+                    I was recently reflecting upon the founders day event held at Foundation Park each year.
+                    I have been taking the festival for granted and have not been properly engaging in perhaps
+                    the most popular community event of the year. In response, I contacted Ms. Sharon via email
+                    and expressed my desire to serve on the event committee. Well, you guessed it, the phone rings
+                    almost immediately and she promply asks me to be the event committee chair. Literally, good grief!
+                    My appreciation for the years of dedicated, generous servie of volunteers and sponsors has escalated
+                    beyond what I thought I could feel for such a thing and ...
+                </p>
+            </div>
+            <img src="./images/pexels-visionpic-net-344102.jpg" alt="">
+        </section>
+        <section id="contactSection">
+            <img src="./images/pexels-aksonsat-uanthoeng-1078850.jpg" width="400px" alt="">
+            <div>
+                <h3>The Weather Site</h3>
+                <p><img src="./images/location.png" alt="">30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <p><img src="./images/phone.png" alt=""> 999.999.9999</p>
+                <p><img src="./images/mail.png" alt=""> theweathersite@tws.com</p>
+                <div>
+                    <span><img src="./images/facebook.png" alt=""></span>
+                    <span><img src="./images/pinterest.png" alt=""></span>
+                    <span><img src="./images/twitter.png" alt=""></span>
+                    <span><img src="./images/whatsapp.png" alt=""></span>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; Paulo's Weather Website | Attributions | Paulo Dallastra</p>
