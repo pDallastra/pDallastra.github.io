@@ -46,6 +46,10 @@
       display: none;
     }
 
+    main #heroSection {
+      margin-bottom: 60px;
+    }
+
     main #heroSection .summary {
       width: 40%;
     }

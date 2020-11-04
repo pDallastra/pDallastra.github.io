@@ -68,6 +68,7 @@ main #heroSection .summary {
   border-radius: 10px;
   width: 20%;
   text-align: center;
+  opacity: 0.8;
 }
 
 main #heroSection .summary span {
