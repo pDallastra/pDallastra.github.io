@@ -39,16 +39,15 @@
         <section class="stormCenter">
             <form action="thanks.html">
                 <label for="fullName">Full Name:</label>
-                <input type="text" name="fullName" pattern=".{5,}" required>
+                <input type="text" name="fullName" pattern=".{5,}" placeholder="@least 5 charac" required>
                 <label for="email">Email:</label>
                 <input type="email" name="email" placeholder="email@email.com">
                 <label for="phoneNumber">Phone Number:</label>
-                <input type="tel" name="phoneNumber" required>
+                <input type="tel" name="phoneNumber" placeholder="1234567890" required>
                 <label for="zip">Zip Code:</label>
-                <input type="number" name="zip" required>
+                <input type="number" name="zip" placeholder="83440" required>
                 <label for="stormDate">Storm Date:</label>
                 <input type="date" name="stormDate">
-
                 <label class="top" for="browsers">Storm Type</label>
                     <input name="weather" list="weather">
                 <datalist id="weather">
