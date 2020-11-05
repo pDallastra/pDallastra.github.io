@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js"></script>
+    <script src="./js/fonts.js"></script>
+</head>
+<body onload="setTimes()">
+    <header>
+        <img src="./images/paulo-weather-logo.png" alt="Paulo's Weather Logo">
+        <div>
+            <h1>Paulo's Weather Website</h1>
+            <p>"Come for the weather... Stay for the experience"</p>
+        </div>
+    </header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home">Home</a>
+            <a href="#">Preston</a>
+            <a href="#">Soda Springs</a>
+            <a href="#">Fish Haven</a>
+            <a href="#" class="active">Storm Center</a>
+            <a href="#" >Gallery</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <section class="stormCenter">
+            <form action="thanks.html">
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" pattern=".{5,}" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="email@email.com">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" name="phoneNumber" required>
+                <label for="zip">Zip Code:</label>
+                <input type="number" name="zip" required>
+                <label for="stormDate">Storm Date:</label>
+                <input type="date" name="stormDate">
+
+                <label class="top" for="browsers">Storm Type</label>
+                    <input name="weather" list="weather">
+                <datalist id="weather">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+
+                <label class="rate" for="rating">Storm Severity:</label>
+                    <input type="range" id="rating" value="0" min="1" max="10" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">1</span>
+    
+                <datalist id="marks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+    
+                <label class="top">Storm Region
+                    <select name="subject">
+                        <option selected="true" disabled="disabled">Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda">Soda Springs</option>
+                        <option value="fish">Fish Haven</option>
+                    </select>
+                </label>
+
+                <h3>User-In-Danger Level</h3>
+                <label class="sbs"><input type="radio" name="choice" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="choice" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="choice" value="no"> No</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="10"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Paulo's Weather Website | Attributions | Paulo Dallastra</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script src="./js/lazyload.js"></script>
+</body>
+</html>

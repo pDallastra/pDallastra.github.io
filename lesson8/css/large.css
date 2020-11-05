@@ -1,0 +1,172 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #28abb9;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #ee6f57;
+  color: white;
+}
+
+header img {
+  height: 200px;
+  margin-left: -2%;
+  margin-right: 2%;
+}
+
+header div {
+    display: flex;
+    flex-flow: column;
+}
+
+header div h1 {
+  font-family: 'Sansita Swashed', cursive;
+    font-size: 3rem;
+}
+
+header div p {
+  font-family: 'Piazzolla', cursive;
+  font-size: 18px;
+}
+
+
+main {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  font-family: 'Poppins', cursive;
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 5%;
+  flex-wrap: wrap;
+}
+
+section div {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+section div img {
+  width: 90%;
+  height: 200px;
+}
+
+@media screen and (min-width: 800px) {
+  
+  section div img:hover {
+    box-shadow: 0 0 50px #333
+  }
+
+}
+
+
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #070d59;;
+  width: 95%;
+  height: 10%;
+  color: white;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+footer a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f3c88;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', cursive;
+}
+
+.topnav a:hover {
+  background-color: rgb(64, 199, 223);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.active {
+  background-color: rgb(64, 199, 223);
+  color: white;
+}
+
+.stormCenter {
+  width: 50%;
+}
+
+.stormCenter form {
+  width: 100%;
+}
+
+.stormCenter form, datalist, select, textarea {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.stormCenter form label {
+  font-size: larger;
+  margin-top: 14px;
+}
+
+.stormCenter form input, datalist, select {
+  height: 24px;
+}
+
+#submitButton {
+  width: 50%;
+  height: 3rem;
+  margin: 10px auto 0;
+  border-radius: 5px;
+  border: none;
+}
+
+#adds {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
