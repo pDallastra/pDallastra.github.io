@@ -78,8 +78,6 @@ section div img {
 
 }
 
-
-
 footer {
   display: flex;
   flex-flow: column;
@@ -141,7 +139,7 @@ nav {
   width: 100%;
 }
 
-.stormCenter form, datalist, select, textarea {
+.stormCenter form, datalist, select, textarea, label {
   display: flex;
   flex-flow: column;
   width: 100%;

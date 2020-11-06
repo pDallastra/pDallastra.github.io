@@ -38,18 +38,23 @@
         <h2>Storm Center</h2>
         <section class="stormCenter">
             <form action="thanks.html">
-                <label for="fullName">Full Name:</label>
-                <input type="text" name="fullName" pattern=".{5,}" placeholder="@least 5 charac" required>
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="email@email.com">
-                <label for="phoneNumber">Phone Number:</label>
-                <input type="tel" name="phoneNumber" placeholder="1234567890" required>
-                <label for="zip">Zip Code:</label>
-                <input type="number" name="zip" placeholder="83440" required>
-                <label for="stormDate">Storm Date:</label>
-                <input type="date" name="stormDate">
+                <label for="fullName">Full Name:
+                    <input type="text" name="fullName" pattern=".{5,}" placeholder="@least 5 charac" id="fullName" required>  
+                </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" placeholder="email@email.com">
+                </label>
+                <label for="phoneNumber">Phone Number:
+                    <input type="tel" name="phoneNumber" placeholder="1234567890" id="phoneNumber" required>
+                </label>
+                <label for="zip">Zip Code:
+                    <input type="number" name="zip" id="zip" placeholder="83440" required>
+                </label>
+                <label for="stormDate">Storm Date:
+                    <input type="date" name="stormDate" id="stormDate">
+                </label>
                 <label class="top" for="browsers">Storm Type</label>
-                    <input name="weather" list="weather">
+                    <input name="weather" list="weather" id="browsers">
                 <datalist id="weather">
                     <option value="Flash Flood"></option>
                     <option value="Hail"></option>
@@ -76,8 +81,8 @@
                     <option value="10">
                 </datalist>
     
-                <label class="top">Storm Region
-                    <select name="subject">
+                <label class="top" for="subject">Storm Region
+                    <select name="subject" id="subject">
                         <option selected="true" disabled="disabled">Select Region</option>
                         <option value="preston">Preston</option>
                         <option value="soda">Soda Springs</option>
