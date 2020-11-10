@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js"></script>
+</head>
+<body onload="setTimes()">
+    <div id="adds">
+        <h3>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h3>
+    </div>
+    <header>
+        <img src="./images/paulo-weather-logo.png" alt="Paulo's Weather Logo">
+        <div>
+            <h1>Paulo's Weather Website</h1>
+            <p>"Come for the weather... Stay for the experience"</p>
+        </div>
+    </header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#">Preston</a>
+            <a href="#">Soda Springs</a>
+            <a href="#">Fish Haven</a>
+            <a href="../lesson8/stormcenter.html">Storm Center</a>
+            <a href="../lesson7/gallery-7.html">Gallery</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <p>&copy; Paulo's Weather Website | Attributions | Paulo Dallastra</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script>
+        WebFont.load({
+            google: {
+            families: ['Poppins', 'Sansita Swashed', 'Piazzolla']
+            }
+        })
+    </script>
+</body>
+</html>
