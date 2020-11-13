@@ -27,7 +27,7 @@ main .cards section {
     background-color: #9799d0;
     border: 2px solid indigo;
     margin: 5px;
-    min-width: 90%;
+    min-width: 20%;
     min-height: 25rem;
     display: flex;
     flex-flow: column;
