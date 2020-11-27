@@ -67,6 +67,7 @@ section div {
 
 section div img {
   width: 90%;
+  max-width: 450px;
   height: 200px;
 }
 
