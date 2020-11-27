@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     header img {
         width: 30%;
         height: 150px;
@@ -47,7 +47,7 @@
     }
 
     main .cards {
-      width: 100%;
+      width: 90%;
       flex-wrap: wrap;
     }
 

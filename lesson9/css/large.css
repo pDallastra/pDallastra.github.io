@@ -207,6 +207,13 @@ main #contactSection div img {
   width: 20px;
 }
 
+.wireframe {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   display: flex;
   flex-flow: column;
