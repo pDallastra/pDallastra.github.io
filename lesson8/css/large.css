@@ -150,6 +150,10 @@ nav {
   margin-top: 14px;
 }
 
+form label input:required {
+  border-left: red solid 6px;
+}
+
 .stormCenter form input, datalist, select {
   height: 24px;
 }
