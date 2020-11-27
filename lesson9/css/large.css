@@ -172,6 +172,41 @@ main #contactSection div img {
   width: 20px;
 }
 
+main #articleSection {
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main #articleSection div {
+  width: 50%;
+}
+
+main #articleSection img {
+  width: 40%;
+  margin: auto;
+}
+
+main #contactSection {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% auto;
+  align-items: center;
+}
+
+main #contactSection img {
+  width: 50%;
+}
+
+main #contactSection div {
+  width: 40%;
+}
+
+main #contactSection div img {
+  width: 20px;
+}
+
 footer {
   display: flex;
   flex-flow: column;
