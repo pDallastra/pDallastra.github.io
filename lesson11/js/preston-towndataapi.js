@@ -13,10 +13,6 @@ fetch(requestURL)
         let div = document.createElement('div');
         section.appendChild(div);
        
-        let image = document.createElement('img')
-        image.setAttribute('src', './images/' + cities[i].photo);
-        image.setAttribute('alt', cities[i].name);
-        section.appendChild(image);
       }
 
       for (let i = 0; i < cities.length; i++) {
