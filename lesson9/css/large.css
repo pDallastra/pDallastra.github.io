@@ -1,16 +1,28 @@
 body {
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #28abb9;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;  
+  background-color: #bbbbbb;
   color: white;
 }
+
+/* ADDS */
+
+#adds {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER */
 
 header {
   display: flex;
   justify-content: center;
-  background-color: #ee6f57;
+  background-color: #0a043c;
   color: white;
 }
 
@@ -35,207 +47,13 @@ header div p {
   font-size: 18px;
 }
 
-
-main {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-
-main h2 {
-  font-family: 'Poppins', cursive;
-  font-size: 2rem;
-}
-
-main .cards {
-  width: 38%;
-  margin: 3rem auto;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-}
-
-main .cards section {
-  background-color: #4487a4;
-  border: 2px solid indigo;
-  margin: 5px;
-  min-width: 90%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-
-main .cards section div {
-  margin: auto;
-  text-align: center;
-}
-
-main .cards section h2 {
-  color: #171a76;
-  font-size: 32px;
-  margin: 5px 0 -15px 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-main .cards section p {
-  font-style: italic;
-  color: black;
-}
-
-main .cards section div h4 {
-  color: rgb(33, 31, 31);
-}
-
-main .cards section img {
-  width: 90%;
-  margin: 10px auto;
-}
-
-main #heroSection {
-  position: relative;
-}
-
-main #heroSection img {
-  width: 90%;
-  margin: 0 5%;
-}
-
-main #heroSection .summary {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  background-color: green;
-  padding: 10px;
-  border-radius: 10px;
-  width: 20%;
-  text-align: center;
-  opacity: 0.8;
-}
-
-main #heroSection .summary span {
-  font-weight: bold;
-}
-
-main #forecastSection {
-  margin: 2.5% auto;
-  text-align: center;
-}
-
-main #forecastSection table {
-  width: 400px;
-  text-align: center;
-  background-color: white;
-  color: black;
-}
-
-main #forecastSection table th {
-  background-color: green;
-  color: white;
-}
-
-main #articleSection {
-  margin: 5% auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-main #articleSection div {
-  width: 50%;
-}
-
-main #articleSection img {
-  width: 40%;
-  margin: auto;
-}
-
-main #contactSection {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin: 5% auto;
-  align-items: center;
-}
-
-main #contactSection img {
-  width: 50%;
-}
-
-main #contactSection div {
-  width: 40%;
-}
-
-main #contactSection div img {
-  width: 20px;
-}
-
-main #articleSection {
-  margin: 5% auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-main #articleSection div {
-  width: 50%;
-}
-
-main #articleSection img {
-  width: 40%;
-  margin: auto;
-}
-
-main #contactSection {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin: 5% auto;
-  align-items: center;
-}
-
-main #contactSection img {
-  width: 50%;
-}
-
-main #contactSection div {
-  width: 40%;
-}
-
-main #contactSection div img {
-  width: 20px;
-}
-
-.wireframe {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #070d59;;
-  width: 95%;
-  height: 10%;
-  color: white;
-  font-size: 12px;
-  margin: 0 auto;
-}
-
-footer a {
-  color: white;
-}
+/* NAVBAR */
 
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f3c88;
+  background-color: #03506f;
 }
 
 .topnav {
@@ -267,9 +85,167 @@ nav {
   color: white;
 }
 
-#adds {
+/* MAIN */
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(43, 40, 40);
+}
+
+main h2 {
+  font-family: 'Poppins', cursive;
+  font-size: 2rem;
+}
+
+main hr {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+/* HERO SECTION */
+
+
+main #heroSection {
+  position: relative;
+  margin: 2rem 0;
+}
+
+main #heroSection img {
+  width: 100%;
+}
+
+/* ARTICLE SECTION */
+
+main #articleSection {
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main #articleSection div {
+  width: 50%;
+}
+
+main #articleSection img {
+  width: 40%;
+  margin: auto;
+}
+
+/* CARDS DIV */
+
+main .cards {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+main .cards section {
+  background-color: #4487a479;
+  margin: 2rem 5px;
+  min-width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+main .cards section div {
+  text-align: center;
+}
+
+main .cards section h2 {
+  color: #171a76;
+  font-size: 32px;
+  margin: 5px 0 -15px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main .cards section p {
+  font-style: italic;
+  color: black;
+}
+
+main .cards section div h4 {
+  color: rgb(33, 31, 31);
+}
+
+main .cards section img {
+  width: 90%;
+  margin: 10px auto;
+}
+
+/* CONTACT SECTION */
+
+main #contactSection {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% auto;
+  align-items: center;
+}
+main #contactSection {
   width: 100%;
   display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+main #contactSection div {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #contactSection div img {
+  width: 45%;
+}
+
+main #contactSection div div {
+  display: flex;
+  flex-flow: column;
+  width: 45%;
+}
+
+main #contactSection div div img {
+  width: 20px;
+}
+
+main #contactSection div div div {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a043c;;
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-size: 12px;
+}
+
+footer a {
+  color: white;
+}
+
+.wireframe {
+  display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
 }
