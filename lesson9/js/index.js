@@ -43,7 +43,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const towns = jsonObject.towns
-    const cities = [towns[1], towns[4], towns[5]]
+    const cities = [towns[1], towns[5], towns[6]]
     for (let i = 0; i < cities.length; i++ ) {
         let section = document.createElement('section');
         document.querySelector('div.cards').appendChild(section);

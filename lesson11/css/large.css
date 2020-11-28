@@ -95,6 +95,50 @@ main .cards section img {
   margin: 10px auto;
 }
 
+main .cards2 {
+  width: 38%;
+  margin: 3rem auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+main .cards2 section {
+  background-color: #4487a4;
+  border: 2px solid indigo;
+  margin: 5px;
+  min-width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .cards2 section div {
+  margin: auto;
+  text-align: center;
+}
+
+main .cards2 section h2 {
+  color: #171a76;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main .cards2 section p {
+  font-style: italic;
+  color: black;
+}
+
+main .cards2 section div h4 {
+  color: rgb(33, 31, 31);
+}
+
+main .cards2 section img {
+  width: 90%;
+  margin: 10px auto;
+}
+
 main #heroSection {
   position: relative;
 }
