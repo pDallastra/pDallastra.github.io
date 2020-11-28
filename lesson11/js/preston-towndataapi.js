@@ -8,7 +8,7 @@ fetch(requestURL)
     const cities = [towns[5]]
     for (let i = 0; i < cities.length; i++ ) {
         let section = document.createElement('section');
-        document.querySelector('div.cards2').appendChild(section);
+        document.querySelector('div.cards').appendChild(section);
         
         let div = document.createElement('div');
         section.appendChild(div);
@@ -16,7 +16,7 @@ fetch(requestURL)
       }
 
       for (let i = 0; i < cities.length; i++) {
-        let cards = document.querySelector('div.cards2');
+        let cards = document.querySelector('div.cards');
         let sections = cards.children;
         
         let children = sections[i].children;
