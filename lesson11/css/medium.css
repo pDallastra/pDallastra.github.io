@@ -36,6 +36,10 @@
       margin-left: 10%;
     }
 
+    main .cards {
+      width: 30%;
+    }
+
     main #heroSection .summary {
       width: 30%;
       font-size: smaller;

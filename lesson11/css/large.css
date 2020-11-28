@@ -50,6 +50,51 @@ main h2 {
   font-size: 2rem;
 }
 
+main .cards {
+  width: 38%;
+  margin: 3rem auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+main .cards section {
+  background-color: #4487a4;
+  border: 2px solid indigo;
+  margin: 5px;
+  min-width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .cards section div {
+  margin: auto;
+  text-align: center;
+}
+
+main .cards section h2 {
+  color: #171a76;
+  font-size: 32px;
+  margin: 5px 0 -15px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main .cards section p {
+  font-style: italic;
+  color: black;
+}
+
+main .cards section div h4 {
+  color: rgb(33, 31, 31);
+}
+
+main .cards section img {
+  width: 90%;
+  margin: 10px auto;
+}
+
 main #heroSection {
   position: relative;
 }
@@ -90,6 +135,83 @@ main #forecastSection table {
 main #forecastSection table th {
   background-color: green;
   color: white;
+}
+
+main #articleSection {
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main #articleSection div {
+  width: 50%;
+}
+
+main #articleSection img {
+  width: 40%;
+  margin: auto;
+}
+
+main #contactSection {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% auto;
+  align-items: center;
+}
+
+main #contactSection img {
+  width: 50%;
+}
+
+main #contactSection div {
+  width: 40%;
+}
+
+main #contactSection div img {
+  width: 20px;
+}
+
+main #articleSection {
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main #articleSection div {
+  width: 50%;
+}
+
+main #articleSection img {
+  width: 40%;
+  margin: auto;
+}
+
+main #contactSection {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% auto;
+  align-items: center;
+}
+
+main #contactSection img {
+  width: 50%;
+}
+
+main #contactSection div {
+  width: 40%;
+}
+
+main #contactSection div img {
+  width: 20px;
+}
+
+.wireframe {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
