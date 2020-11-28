@@ -2,12 +2,20 @@ const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&unit
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+
+    temp = document.getElementById('high').textContent = jsObject.list[0].main.temp.toPrecision(2);
+    wind = document.getElementById('wSpeed').textContent = jsObject.list[0].wind.speed;
+
+    if (temp <= 50 && wind >= 3) {
+      windchill = 35.75 + 0.6215 * temp - 35.75 * Math.pow(wind, 0.16) + 0.4275 * temp * Math.pow(wind, 0.16);
+      windchillElement = Math.round(windchill) + "℉";
+      wChill.textContent = windchillElement;
+    }
 
     document.getElementById("current").textContent = jsObject.list[0].weather[0].main;
-    document.getElementById('high').textContent = jsObject.list[0].main.temp.toPrecision(2);
+    document.getElementById('high').textContent = temp
     document.getElementById('humi').textContent = jsObject.list[0].main.humidity;
-    document.getElementById('wSpeed').textContent = jsObject.list[0].wind.speed;
+    document.getElementById('wSpeed').textContent = wind
     
     document.getElementById('tempDay1').textContent = jsObject.list[7].main.temp.toPrecision(2);
     document.getElementById('tempDay2').textContent = jsObject.list[15].main.temp.toPrecision(2);
