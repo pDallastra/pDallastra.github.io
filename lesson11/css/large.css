@@ -172,6 +172,11 @@ main #articleSection h2 {
   text-align: center;
 }
 
+main #articleSection a {
+  width: 20%;
+  color: rgb(43, 40, 40);
+}
+
 main #articleSection div {
   width: 100%;
   display: flex;
